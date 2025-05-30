@@ -11,7 +11,7 @@
       padding: 60px 20px;
     }
 
-   <img src="logo.png" alt="Dayuan Software" style="max-width: 200px; margin-bottom: 20px;">
+   <img src="wilsoncho-bit.github.io/logo.png" alt="Dayuan Software" style="max-width: 200px; margin-bottom: 20px;">
 
 
     h2 {
