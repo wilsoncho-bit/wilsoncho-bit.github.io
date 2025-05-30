@@ -7,20 +7,26 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #f0f4ff, #ffffff);
-      text-align: center;
-      padding: 80px 20px;
+      background: linear-gradient(to bottom, #f5f7fa, #ffffff);
       color: #333;
+      text-align: center;
+      padding: 60px 20px;
     }
 
     h2 {
       font-size: 2.5em;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     p {
-      font-size: 1.4em;
-      margin-bottom: 40px;
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .section {
+      max-width: 700px;
+      margin: 0 auto 50px auto;
     }
 
     .download-button {
@@ -28,8 +34,8 @@
       border: none;
       color: white;
       padding: 18px 36px;
-      font-size: 1.5em;
-      border-radius: 12px;
+      font-size: 1.4em;
+      border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -37,16 +43,37 @@
     .download-button:hover {
       background-color: #45a049;
     }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
+    }
   </style>
 </head>
 <body>
 
   <h2>🧮 多功能數學計算器 安裝程式</h2>
-  <p>點擊下面的按鈕下載計算機與遊戲的安裝程式：</p>
 
-  <a href="https://drive.google.com/uc?export=download&id=1dju7dy7nUxTsWjgKl2zCZlmp6F7sXVBU" download>
-    <button class="download-button">⬇ 下載產品.zip</button>
-  </a>
+  <div class="section">
+    <p>點擊下方按鈕下載安裝檔，解壓縮後執行 <code>setup.exe</code> 進行安裝。</p>
+    <p>本程式使用 <strong>Inno Setup</strong> 打包製作，可安心使用。</p>
+
+    <a href="https://drive.google.com/uc?export=download&id=1dju7dy7nUxTsWjgKl2zCZlmp6F7sXVBU" download>
+      <button class="download-button">⬇ 下載產品.zip</button>
+    </a>
+  </div>
+
+  <div class="section">
+    <h3>安全與支援</h3>
+    <p>本安裝檔經 Windows Defender 檢查，無病毒、無自啟、不蒐集資料。</p>
+    <p>如有問題或意見，歡迎來信聯絡：</p>
+    <p><strong>xinyuancho2013@gmail.com</strong></p>
+  </div>
+
+  <div class="footer">
+    © 2025 Wilson Cho. All rights reserved.
+  </div>
 
 </body>
 </html>
