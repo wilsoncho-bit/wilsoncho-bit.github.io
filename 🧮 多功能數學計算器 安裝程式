@@ -1,8 +1,7 @@
-index.html
 <h2>🧮 多功能數學計算器 安裝程式</h2>
 <p>點擊下面的按鈕下載我用 Inno Setup 製作的安裝程式：</p>
 
-<a href="https://github.com/wilsoncho-bit/wilsoncho.github.io/raw/main/產品.zip" download>
+<a href="https://drive.google.com/uc?export=download&id=1dju7dy7nUxTsWjgKl2zCZlmp6F7sXVBU" download>
   <button style="
     background-color: #4CAF50;
     border: none;
@@ -15,5 +14,5 @@ index.html
     margin-top: 10px;
     cursor: pointer;
     border-radius: 8px;
-  ">→下載</button>
+  ">⬇下載</button>
 </a>
