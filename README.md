@@ -1,1 +1,19 @@
 # wilsoncho.github.io
+<h2>🧮 多功能數學計算器 安裝程式</h2>
+<p>點擊下面的按鈕下載計算機與遊戲的安裝程式：</p>
+
+<a href="https://drive.google.com/uc?export=download&id=1dju7dy7nUxTsWjgKl2zCZlmp6F7sXVBU" download>
+  <button style="
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  ">⬇下載</button>
+</a>
