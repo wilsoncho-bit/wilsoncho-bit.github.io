@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>多功能數學計算器與遊戲的安裝程式</title>
-  <link rel="icon" href="logo.png" type="image/png">
-
-  <!-- ✅ 防快取設定 -->
-  <meta http-equiv="Cache-Control" content="no-store">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
-
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -18,59 +11,59 @@
       text-align: center;
       padding: 60px 20px;
     }
-
     h2 {
       font-size: 2.5em;
       margin-bottom: 10px;
     }
-
     p {
       font-size: 1.2em;
       margin-bottom: 30px;
       line-height: 1.6;
     }
-
     .section {
       max-width: 700px;
       margin: 0 auto 50px auto;
     }
-
     .download-button {
       background-color: #4CAF50;
+      border: none;
       color: white;
       padding: 18px 36px;
       font-size: 1.4em;
       border-radius: 10px;
       cursor: pointer;
       transition: background-color 0.3s ease;
-      text-decoration: none;
+      text-decoration: none; /* 確保沒有底線 */
       display: inline-block;
     }
-
     .download-button:hover {
       background-color: #45a049;
     }
-
     .footer {
       margin-top: 60px;
       font-size: 0.9em;
       color: #888;
     }
   </style>
+  <link rel="icon" href="logo.png" type="image/png" />
 </head>
 <body>
-  <img src="https://raw.githubusercontent.com/wilsoncho-bit/wilsoncho-bit.github.io/refs/heads/main/logo.png" alt="Dayuan Software" style="max-width: 500px;">
+  <img src="https://raw.githubusercontent.com/wilsoncho-bit/wilsoncho-bit.github.io/refs/heads/main/logo.png" alt="Dayuan Software" style="max-width: 500px;" />
   <h2>🧮 多功能數學計算器與遊戲安裝程式</h2>
 
   <div class="section">
     <p>點擊下方按鈕下載安裝檔，解壓縮後執行 <code>setup.exe</code> 進行安裝。</p>
     <p>本程式使用 <strong>Inno Setup</strong> 打包製作，可安心使用。</p>
 
-    <!-- ✅ 自動下載按鈕 -->
-    <a href="https://drive.google.com/uc?export=download&id=1KFl5g2Ri0u3o_QSlB0QG-QAt8xzKC3Yj"
-       class="download-button" download>
-      ⬇ 下載產品.zip
-    </a>
+    <a
+      id="download-link"
+      href="https://drive.google.com/uc?export=download&id=1KFl5g2Ri0u3o_QSlB0QG-QAt8xzKC3Yj"
+      class="download-button"
+      download
+      target="_blank"
+      rel="noopener noreferrer"
+      >⬇ 下載產品.zip</a
+    >
   </div>
 
   <div class="section">
@@ -80,8 +73,12 @@
     <p><strong>xinyuancho2013@gmail.com</strong></p>
   </div>
 
-  <div class="footer">
-    © 2025 Wilson Cho. All rights reserved.
-  </div>
+  <div class="footer">© 2025 Wilson Cho. All rights reserved.</div>
+
+  <script>
+    const link = document.getElementById('download-link');
+    const timestamp = Date.now();
+    link.href = link.href + '?v=' + timestamp;
+  </script>
 </body>
 </html>
